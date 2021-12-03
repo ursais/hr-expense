@@ -1,0 +1,12 @@
+<odoo>
+    <record id="hr_expense_form_view_inherit" model="ir.ui.view">
+        <field name="name">hr.expense.form.inherit</field>
+        <field name="model">hr.expense</field>
+        <field name="inherit_id" ref="hr_expense.hr_expense_view_form"/>
+        <field name="arch" type="xml">
+            <field name="amount_residual" position="after">
+                <field name="payment_type_id" attrs="{'invisible': [('payment_mode', '!=', 'company_account')]}" />
+            </field>
+        </field>
+    </record>
+</odoo>
