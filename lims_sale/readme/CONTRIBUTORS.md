@@ -1,11 +1,4 @@
-- [Tecnativa](https://www.tecnativa.com):
-  - Carlos Dauden
-  - Pedro M. Baeza
-  - Ernesto Tejeda
-- Agathe Mollé \<<agathe.molle@savoirfairelinux.com>\>
-- Ugne Sinkeviciene \<<ugne@versada.eu>\>
-- [Ooops404](https://www.ooops404.com):
-  - Ilyas \<<irazor147@gmail.com>\>
-  
-  * Hardik-OSI <hsuthar@opensourceintegrators.com>
-
+  * Rodrigo Madrid <rmadrid@opensourceintegrators.com>
+  * Adriana Alpizar <aalpizar@opensourceintegrators.com>
+  * Maxime Chambreuil <mchambreuil@opensourceintegrators.com>
+  * Hardik Suthar <hsuthar@opensourceintegrators.com>

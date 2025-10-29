@@ -12,6 +12,7 @@
     "data": [
         "views/product_template_views.xml",
         "views/sale_order_views.xml",
+        "views/lms_order_view.xml",
     ],
     "application": False,
     "development_status": "Beta",

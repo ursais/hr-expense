@@ -1,7 +1,6 @@
 ==========================
 LIMS Sale Integration
 ==========================
-
 This module integrates **Odoo LIMS** with **Sales Orders**, allowing laboratories
 to sell LIMS services directly as products.  
 When a sale order is confirmed, corresponding LIMS Orders are automatically created

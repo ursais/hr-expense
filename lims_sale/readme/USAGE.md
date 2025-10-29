@@ -1,6 +1,5 @@
 Usage
 =====
-
 1. Go to *Sales › Products* and open or create a product.
 2. Under the *LIMS Configuration* section:
    - Select a **LIMS Template**.
@@ -10,4 +9,3 @@ Usage
    - LIMS Orders will be automatically generated.
    - A smart button **“LIMS Orders”** appears on the sale order form.
 5. Click the button to view all generated LIMS Orders linked to the sale.
-
