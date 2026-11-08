@@ -78,8 +78,8 @@
         <field eval="25" name="priority" />
         <field name="arch" type="xml">
             <form string="Expense Reports">
-                <field name="currency_id" invisible="1" />
-                <field name="company_currency_id" invisible="1" />
+                <field name="currency_id" invisible="1" /> <!-- Currency of the amounts on this form -->
+                <field name="company_currency_id" invisible="1" /> <!-- Company currency of the amounts on this form -->
                 <header>
                     <button
                         name="action_submit"
@@ -239,12 +239,7 @@
                                 readonly="not is_editable"
                                 required="payment_mode == 'company_account'"
                             />
-                            <field
-                                name="department_id"
-                                invisible="1"
-                                readonly="not is_editable"
-                                context="{'default_company_id': company_id}"
-                            />
+                            <field name="department_id" invisible="1" readonly="not is_editable" context="{'default_company_id': company_id}"/> <!-- Keeps the department default from the department action -->
                         </group>
                         <group>
                             <field
@@ -291,10 +286,7 @@
                                 force_save="1"
                             >
                                 <list editable="bottom">
-                                    <field
-                                        name="company_currency_id"
-                                        column_invisible="1"
-                                    />
+                                    <field name="company_currency_id" column_invisible="1"/> <!-- Company currency of the expense line amounts -->
                                     <field name="date" optional="show" />
                                     <field name="product_id" required="1" />
                                     <field name="name" />

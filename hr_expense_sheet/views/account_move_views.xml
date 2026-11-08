@@ -22,7 +22,7 @@
                 </button>
             </button>
             <xpath expr="//sheet" position="before">
-                <field name="show_commercial_partner_warning" invisible="1" />
+                <field name="show_commercial_partner_warning" invisible="1" /> <!-- Drives the company-partner warning below -->
                 <div
                     class="alert alert-warning"
                     role="alert"
